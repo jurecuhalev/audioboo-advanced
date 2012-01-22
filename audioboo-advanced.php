@@ -122,6 +122,7 @@ add_action('widgets_init', create_function('', 'return register_widget("Audioboo
 
 function add_scripts() {
     if ( !is_admin() ) {
+        wp_enqueue_script("swfobject");
         wp_enqueue_script('jquery-swfobject.script', '/wp-content/plugins/audioboo-advanced/jquery.swfobject.1-1-1.min.js');
         wp_enqueue_script('jquery.audioboo.script', '/wp-content/plugins/audioboo-advanced/jquery.audioboo.js');
     }
