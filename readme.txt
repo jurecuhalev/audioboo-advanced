@@ -21,6 +21,9 @@ Shortcode usage:
 
 == Changelog ==
 
+= 1.1 =
+* Audioboo embed now uses to Audioboo's iframe if the browser doesn't support flash (e.g. iPad, iPhone, Android)
+
 = 1.0 =
 * Initial release
 
