@@ -3,7 +3,7 @@
 Plugin Name: Advanced Audiboo embed placement
 Plugin URI: http://github.com/gandalfar/audioboo-advanced
 Description: Provides audioboo_embed() function that creates Audioembed if post has one
-Version: 1.0
+Version: 1.1
 Author: Jure Cuhalev
 Author URI: http://www.jurecuhalev.com/blog
 License: GPLv2 or later
