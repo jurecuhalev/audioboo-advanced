@@ -24,7 +24,8 @@ Shortcode usage:
 = in progress =
 * Fixed the save function so quick save doesn't delete post data
 
-= 1.1 =
+= 1.1 = 
+>>>>>>> efac2333bc91286245396ff94faf4eab0c5abe4a
 * Audioboo embed now uses to Audioboo's iframe if the browser doesn't support flash (e.g. iPad, iPhone, Android)
 
 = 1.0 =
