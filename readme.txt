@@ -21,6 +21,9 @@ Shortcode usage:
 
 == Changelog ==
 
+= in progress =
+* Fixed the save function so quick save doesn't delete post data
+
 = 1.1 =
 * Audioboo embed now uses to Audioboo's iframe if the browser doesn't support flash (e.g. iPad, iPhone, Android)
 

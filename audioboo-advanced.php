@@ -59,8 +59,12 @@ function aboo_meta(){
 
 
 function aboo_save(){
+    if ( defined('DOING_AJAX') )
+    return;
+
     if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
     return $post_id;
+
     global $post;
     if($post->post_type == "post" || $post->post_type == "page") {
                 update_post_meta($post->ID, "aboo_adv", $_POST["aboo_adv"]);
